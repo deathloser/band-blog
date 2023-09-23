@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.About {
+  background-color: #282c34;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Contact {
+  background-color: #282c34;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+/* Assuming you are using className for styling in React or JSX */
+.navbar-class {
+  background-color: #333; /* Set your desired background color */
+}
+
+.navbar-list {
+  list-style-type: none; /* Remove list bullets */
+  padding: 0; /* Remove default padding for ul */
+  display: flex; /* Use Flexbox to make the list items horizontal */
+  justify-content: space-around; /* Distribute items evenly along the main axis */
+}
+
+.navbar-list li {
+  margin: 0; /* Remove any margin */
+  padding: 0; /* Remove any padding */
+}
+
+.navbar-list li a {
+  text-decoration: none; /* Remove underlines from links */
+  color: white; /* Set link text color */
+  padding: 10px 20px; /* Add some spacing between menu items */
+}
+
+/* Style the links on hover */
+.navbar-list li a:hover {
+  background-color: #555; /* Set the background color on hover */
+  border-radius: 5px; /* Add rounded corners */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex; /* Enable flex layout for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  /*height: 100vh;  Make the body fill the viewport height */
+}
+
+.image-container {
+  text-align: center; /* Center-align the contents inside the div */
+  background-color: #282c34;
+}
+
+.image-container img {
+  max-width: 100%; /* Ensure the image does not exceed its container's width */
+  max-height: 100%; /* Ensure the image does not exceed its container's height */
+}
+
+
